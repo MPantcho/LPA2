@@ -6,7 +6,7 @@ script:
 - bundle exec rake
 deploy:
   provider: heroku
-  api_key:a9915ffd-9e33-420e-a49a-7bb1f97b79d2
+  api_key: a9915ffd-9e33-420e-a49a-7bb1f97b79d2
   app: mpantcho
   on:
     repo: MPantcho/LPA2
