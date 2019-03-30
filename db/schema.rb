@@ -10,20 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_22_094709) do
+ActiveRecord::Schema.define(version: 2019_03_22_094658) do
 
   create_table "orderlines", force: :cascade do |t|
     t.integer "order_id"
-    t.integer "produits_id"
+    t.integer "produit_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["order_id"], name: "index_orderlines_on_order_id"
-    t.index ["produits_id"], name: "index_orderlines_on_produits_id"
+    t.index ["produit_id"], name: "index_orderlines_on_produit_id"
   end
 
   create_table "orders", force: :cascade do |t|
     t.string "name"
-    t.string "adress"
+    t.string "address"
     t.string "zipcode"
     t.string "town"
     t.datetime "created_at", null: false
@@ -31,9 +31,9 @@ ActiveRecord::Schema.define(version: 2019_03_22_094709) do
   end
 
   create_table "produits", force: :cascade do |t|
-    t.string "nom"
+    t.string "name"
+    t.decimal "prix"
     t.string "description"
-    t.float "prix"
     t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

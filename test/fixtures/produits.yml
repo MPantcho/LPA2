@@ -1,19 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  nom: MyString
+  name: MyString
+  prix: 
   description: MyString
-  prix: 1.5
   image: MyString
 
 two:
-  nom: MyString
+  name: MyString
+  prix: 
   description: MyString
-  prix: 1.5
   image: MyString
 
 three:
-  nom: other
-  description: MyStringproduct
+  name: other
+  description: MyStriproductng
   prix: 1.5
-  image: MyString
+  image: Mystring
