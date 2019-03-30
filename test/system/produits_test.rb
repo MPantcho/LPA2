@@ -16,7 +16,7 @@ class ProduitsTest < ApplicationSystemTestCase
 
     fill_in "Description", with: @produit.description
     fill_in "Image", with: @produit.image
-    fill_in "Name", with: @produit.name
+    fill_in "Nom", with: @produit.nom
     fill_in "Prix", with: @produit.prix
     click_on "Create Produit"
 
@@ -30,7 +30,7 @@ class ProduitsTest < ApplicationSystemTestCase
 
     fill_in "Description", with: @produit.description
     fill_in "Image", with: @produit.image
-    fill_in "Name", with: @produit.name
+    fill_in "Nom", with: @produit.nom
     fill_in "Prix", with: @produit.prix
     click_on "Update Produit"
 

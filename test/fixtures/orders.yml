@@ -2,12 +2,12 @@
 
 one:
   name: MyString
-  address: MyString
+  adress: MyString
   zipcode: MyString
   town: MyString
 
 two:
   name: MyString
-  address: MyString
+  adress: MyString
   zipcode: MyString
   town: MyString
