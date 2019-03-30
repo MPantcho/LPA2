@@ -2,8 +2,9 @@
 
 one:
   order: one
-  produits: one
+  produit: one
 
 two:
   order: two
-  produits: two
+  produit: two
+
